@@ -1,0 +1,1 @@
+set source_folder to choose folder with prompt "Please select directory."tell application "System Events"	set theFile to (path of source_folder) as alias	tell application "Finder" to set label index of theFile to 1end tell
